@@ -1,0 +1,21 @@
+Specifics of the weight_log file:
+
+1. Comments
+'#' symbol is used for comments
+All characters to the right of # are ignored, until newline \n
+
+Example:
+# This is commented
+2027-09-24 66.8 # This is commented
+
+
+2. Log entries
+YYYY-MM-DD Weight(kg) in the following format:
+2027-09-29 70.0
+
+The logs do not have to be day by day (you can skip days)
+They don't have to be in order either
+2027-09-29 70.0
+2027-09-30 69.9
+
+2027-10-02 63.9
