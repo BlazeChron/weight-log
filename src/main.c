@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
   }
   double b0;
   double b1;
-  calculate_simple_linear_regression(arr, MAX_ENTRIES, &b0, &b1);
+  calculate_simple_linear_regression(arr, wesindex, &b0, &b1);
   printf("b0: %f, b1: %f\n", b0, b1);
 
   // free
