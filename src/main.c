@@ -23,10 +23,8 @@ int main(int argc, char *argv[])
   printf("Starting program\n");
   // Read file
   int c;
-  int is_comment = 0;
 
   struct weight_entry we;
-  struct weight_entry wes[MAX_ENTRIES];
   double arr[MAX_ENTRIES][2];
 
   int wesindex = 0;
