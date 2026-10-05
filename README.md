@@ -7,6 +7,4 @@
 
 Put your weights in some file `logfile` in the format specified in `notes`
 
-```cat logfile | weight_logger```
-
-```../build/weight_logger ../weight_log [number of previous entries considered]```
+```weight_logger weight_log [number of previous entries considered]```
